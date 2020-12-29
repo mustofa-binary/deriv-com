@@ -1443,7 +1443,7 @@
     "-1834131208": "USD/PLN",
     "-1800672151": "Indice GBP",
     "-390528194": "Indice Step",
-    "-75787346": "Per gli indici di volatilità <0>10, 25, 50, 75, e 1000</0>, viene generato <0>un tick</0>  <0>ogni due secondi</0>.",
+    "-75787346": "<0>Un tick</0> viene generato <0>ogni due secondi</0> per gli indici di volatilità <0>10, 25, 50, 75, e 100</0>.",
     "-257478628": "Per gli indici di volatilità <0>10 (1s), 25 (1s), 50 (1s), 75 (1s), e 100 (1s)</0>, viene generato <0>un tick</0> al secondo.",
     "-690460725": "Questi indici riproducono i mercati con <0>trend rialzisti e ribassisti</0> e volatilità costante. Gli indici di mercato rialzista (Bull Market) e mercato ribassista (Bear Market) iniziano alle 00:00 GMT ogni giorno, replicando rispettivamente tali mercati.",
     "-1423079982": "Il trading di opzioni permette di guadagnare dalle previsioni sui movimenti del mercato, senza dover acquistare asset sottostanti. Fai trading con opzioni digitali e retrospettive su indici sintetici.",
