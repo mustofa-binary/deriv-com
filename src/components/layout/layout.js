@@ -10,7 +10,7 @@ import { LocationProvider } from './location-context'
 import EURedirect, { useModal } from 'components/custom/_eu-redirect-modal.js'
 import CookieBanner from 'components/custom/cookie-banner'
 import { CookieStorage } from 'common/storage'
-import { isBrowser } from 'common/utility'
+import { isBrowser, cfd_warning_height_desktop, cfd_warning_height_tablet } from 'common/utility'
 import { DerivStore } from 'store'
 import { Localize } from 'components/localization'
 import { Text } from 'components/elements'
@@ -24,9 +24,6 @@ const has_dataLayer = isBrowser() && window.dataLayer
 
 const TRACKING_STATUS_KEY = 'tracking_status'
 const tracking_status_cookie = new CookieStorage(TRACKING_STATUS_KEY)
-
-const cfd_warning_height_desktop = 8
-const cfd_warning_height_tablet = 12
 
 const CFDWrapper = styled.section`
     background-color: var(--color-grey-25);
